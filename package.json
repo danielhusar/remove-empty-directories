@@ -1,0 +1,38 @@
+{
+  "name": "remove-empty-directories",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "media",
+    "queries",
+    "respond",
+    "responsive",
+    "mediaqueries"
+  ],
+  "bin": {
+    "nmq": "cli.js"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Daniel Husár",
+    "email": "dano.husar@gmail.com"
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielhusar/remove-empty-directories"
+  },
+  "dependencies": {
+    "file": "^0.2.2",
+    "extfs": "0.0.7"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "readmeFilename": "Readme.md"
+}
