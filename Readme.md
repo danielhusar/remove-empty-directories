@@ -4,6 +4,8 @@ Remove all empty directories from the provided folder.
 Its all sync as its a lot easier to do it this way :)
 It will return array of removed directories.
 
+It will not remove the passed directory itself.
+
 ## Install
 
 #### [npm](https://npmjs.org/package/remove-empty-directories)

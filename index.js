@@ -1,8 +1,7 @@
 'use strict';
 
 var file = require('file');
-var fs = require('extfs');
-var remove;
+var efs = require('extfs');
 
 var remove = function(path) {
   var folders = [];
@@ -18,9 +17,9 @@ var remove = function(path) {
   folders.pop(); //dont remove main folder
 
   folders.forEach(function(dir) {
-    var empty = fs.isEmptySync(dir);
+    var empty = efs.isEmptySync(dir);
     if (empty) {
-      fs.rmdirSync(dir);
+      efs.rmdirSync(dir);
       removed.push(dir);
     }
   });

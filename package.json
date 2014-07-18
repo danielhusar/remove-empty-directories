@@ -1,16 +1,16 @@
 {
   "name": "remove-empty-directories",
   "version": "0.0.1",
-  "description": "",
+  "description": "Remove all empty folders that are in the passed folder",
   "keywords": [
-    "media",
-    "queries",
-    "respond",
-    "responsive",
-    "mediaqueries"
+    "remove",
+    "directory",
+    "directories",
+    "folder",
+    "folders"
   ],
   "bin": {
-    "nmq": "cli.js"
+    "remove-directories": "cli.js"
   },
   "scripts": {
     "test": "mocha -R spec"
